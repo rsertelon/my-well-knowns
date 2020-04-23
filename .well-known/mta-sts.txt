@@ -1,4 +1,4 @@
 version: STSv1
-mode: testing
+mode: enforce
 mx: smtp.sertelon.fr
 max_age: 31536000
