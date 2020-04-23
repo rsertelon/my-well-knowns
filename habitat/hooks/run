@@ -1,0 +1,5 @@
+#!/bin/sh
+
+exec 2>1&
+
+exec thttpd -D -h {{cfg.bind.address}} -p {{cfg.bind.port}} -d {{pkg.path}}/webroot
