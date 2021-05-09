@@ -9,14 +9,14 @@
       <hostname>imap.sertelon.fr</hostname>
       <port>143</port>
       <socketType>STARTTLS</socketType>
-      <authentication>password-encrypted</authentication>
+      <authentication>password-cleartext</authentication>
       <username>%EMAILADDRESS%</username>
     </incomingServer>
     <outgoingServer type="smtp">
       <hostname>smtp.sertelon.fr</hostname>
       <port>587</port>
       <socketType>STARTTLS</socketType>
-      <authentication>password-encrypted</authentication>
+      <authentication>password-cleartext</authentication>
       <username>%EMAILADDRESS%</username>
     </outgoingServer>
   </emailProvider>
