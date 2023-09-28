@@ -20,4 +20,42 @@
       <username>%EMAILADDRESS%</username>
     </outgoingServer>
   </emailProvider>
+  <emailProvider id="sameie.fr">
+    <domain>sameie.fr</domain>
+    <displayName>Sameie Mail</displayName>
+    <displayShortName>Sameie</displayShortName>
+    <incomingServer type="imap">
+      <hostname>imap.sertelon.fr</hostname>
+      <port>143</port>
+      <socketType>STARTTLS</socketType>
+      <authentication>password-cleartext</authentication>
+      <username>%EMAILADDRESS%</username>
+    </incomingServer>
+    <outgoingServer type="smtp">
+      <hostname>smtp.sertelon.fr</hostname>
+      <port>587</port>
+      <socketType>STARTTLS</socketType>
+      <authentication>password-cleartext</authentication>
+      <username>%EMAILADDRESS%</username>
+    </outgoingServer>
+  </emailProvider>
+  <emailProvider id="lhapsa07.fr">
+    <domain>lhapsa07.fr</domain>
+    <displayName>Lhapsa07 Mail</displayName>
+    <displayShortName>Lhapsa07</displayShortName>
+    <incomingServer type="imap">
+      <hostname>imap.sertelon.fr</hostname>
+      <port>143</port>
+      <socketType>STARTTLS</socketType>
+      <authentication>password-cleartext</authentication>
+      <username>%EMAILADDRESS%</username>
+    </incomingServer>
+    <outgoingServer type="smtp">
+      <hostname>smtp.sertelon.fr</hostname>
+      <port>587</port>
+      <socketType>STARTTLS</socketType>
+      <authentication>password-cleartext</authentication>
+      <username>%EMAILADDRESS%</username>
+    </outgoingServer>
+  </emailProvider>
 </clientConfig>
